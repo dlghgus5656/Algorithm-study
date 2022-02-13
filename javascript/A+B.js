@@ -16,4 +16,4 @@
 // }
 
 // 백준에선 경로를 "/dev/stdin" 이렇게 지정해주어야 한다.
-(v = require("fs").readFileSync("/dev/stdin")), console.log(v[0] + v[2] - 96);
+(v = require("fs").readFileSync(0, "utf8")), console.log(v[0] + v[2]);
