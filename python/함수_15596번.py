@@ -18,6 +18,7 @@ def solve(a):
         sum += i
     return sum
 
+
 # python의 내장함수를 사용하는 방법
 
 
