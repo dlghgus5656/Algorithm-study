@@ -42,10 +42,10 @@ N = int(sys.stdin.readline())
 num = 2
 
 while True:
-    if N % num is 0:
+    if N % num == 0:
         print(num)
         N //= num
-    elif N is 1:
+    elif N == 1:
         break
     else:
         num += 1
@@ -54,3 +54,6 @@ while True:
 # N의 소인수분해 결과를 한 줄에 하나씩 오름차순으로 출력한다.
 # -> while 반복문 + if 조건문 + 증감식 변수 + break로 무한반복 탈출로 구현한다.
 # -> 증감식이기 때문에 따로 정렬을 할 필요는 없다.
+
+# SyntaxWarning: "is" with a literal. Did you mean "=="?
+# 위 오류는 is를 ==로 고쳐주면 해결 된다.
