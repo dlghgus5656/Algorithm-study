@@ -52,7 +52,7 @@ for i in range(T):
     b = int(n/2)  # 3. 반절 값을 시작으로 하나씩 늘여나갈 변수를 지정.
 
     for k in range(int(n/2)):  # 4. n 전체가 아닌 반절값만 증명하면 OK
-        if prime(a) == True and prime(b) == True:  # 4-1. a,b 둘다 소수일 경우 Yes 출력
+        if prime(a) == True and prime(b) == True:  # 4-1. a,b 둘다 소수일 경우 True 출력
             print(a, b)
             break
         else:  # 4-2. 아닐 경우 변수의 차이를 두어 확인
