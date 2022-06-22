@@ -33,6 +33,8 @@ li = []
 for i in range(n):
     li.append(int(input()))
 
+print("------------------------")
+
 for i in sorted(li):
     print(i)
 
